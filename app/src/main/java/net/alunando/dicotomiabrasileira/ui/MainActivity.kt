@@ -1,8 +1,7 @@
 package net.alunando.dicotomiabrasileira.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatActivity
 import net.alunando.dicotomiabrasileira.ui.home.HomeFragment
 
 open class MainActivity : AppCompatActivity() {
