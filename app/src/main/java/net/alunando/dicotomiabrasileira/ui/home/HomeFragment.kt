@@ -11,6 +11,7 @@ import org.koin.android.viewmodel.ext.android.viewModel
 class HomeFragment : Fragment() {
 
     private val homeViewModel: HomeViewModel by viewModel()
+    private lateinit var binding: HomeFragmentBinding
 
     companion object {
         fun newInstance() = HomeFragment()
